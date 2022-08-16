@@ -7,6 +7,8 @@ Cardiovascular diseases (CVDs), especially heart disorders, are a primary cause 
 
 The aim of this project is to answer the following question: **Is heart disease present (values = 1, 2, 3, 4) or absent (value = 0) in a new patient?**
 
+In this project, we will use the KNN classification method to answer this question.
+
 ### Data set
 To answer this question, we will analyze data downloaded from the UCI Machine Learning Repository. Below, we compile four databases (Cleveland, Hungary, Switzerland, and VA Long Beach) into one dataset: `heart_disease_dataset`. Each row in the data set contains data about one patient. We will add a column `presence` (the predicted attribute) to indicate the presence or absence of heart disease. 
 
